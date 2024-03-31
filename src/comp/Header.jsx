@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import Hero from './Hero';
 
-const Header = () => {
+const Header = ({orderItems}) => {
   const images = [
     'https://i.ibb.co/LCsHcDx/Whats-App-Image-2024-03-20-at-6-47-06-PM-1.jpg',
     'https://i.ibb.co/GnBR2j0/Whats-App-Image-2024-03-20-at-6-47-06-PM-2.jpg',

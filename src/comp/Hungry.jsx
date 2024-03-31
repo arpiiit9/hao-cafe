@@ -11,15 +11,15 @@ const hungryMenuData = {
       price: 190,
       image: "https://avatars.mds.yandex.net/i?id=5b07b0164afbf9544f58d8cf4d8d651d010dd336-5252128-images-thumbs&n=13",
       subitems: [
-        { name: 'Margherita', price: 190 },
-        { name: 'Cheese Core', price: 190 },
-        { name: 'Mexican Pizza', price: 190 },
-        { name: 'Farm Delight Pizza', price: 190 },
-        { name: 'Paneer Makhni Pizza', price: 190 },
-        { name: 'Mac-o-Mac Pizza', price: 190 },
-        { name: 'Overloaded Pizza', price: 190 },
-        { name: 'Add-ons: Cheese', price: 20 },
-        { name: 'Add-ons: Cheese Burst Crust', price: 20 }
+        { name: 'Margherita', price: 180 },
+        { name: 'Cheese Core', price: 220 },
+        { name: 'Mexican Pizza', price: 220 },
+        { name: 'Farm Delight Pizza', price: 240 },
+        { name: 'Paneer Makhni Pizza', price: 280 },
+        { name: 'Mac-o-Mac Pizza', price: 300},
+        { name: 'Overloaded Pizza', price: 400 },
+        { name: 'Add-ons: Cheese', price: 40 },
+        { name: 'Add-ons: Cheese Burst Crust', price: 50 }
       ]
     },
     {
@@ -28,10 +28,10 @@ const hungryMenuData = {
       image: "https://images.herzindagi.info/image/2023/Sep/kulhad-pizza-recipe.jpg",
       subitems: [
         { name: 'Margherita', price: 100 },
-        { name: 'Cheese Corn', price: 100 },
-        { name: 'Mexican Pizza', price: 100 },
-        { name: 'Farm Delight Pizza', price: 100 },
-        { name: 'Paneer Makhni Pizza', price: 100 }
+        { name: 'Cheese Corn', price: 120 },
+        { name: 'Mexican Pizza', price: 120 },
+        { name: 'Farm Delight Pizza', price: 150 },
+        { name: 'Paneer Makhni Pizza', price: 150 }
       ]
     },
     {
@@ -43,7 +43,7 @@ const hungryMenuData = {
         { name: 'Red Sauce Pasta', price: 250 },
         { name: 'Orange Pasta', price: 250 },
         { name: 'Pesto Pasta', price: 250 },
-        { name: 'Mac n Cheese Pasta', price: 250 }
+        { name: 'Mac n Cheese Pasta', price: 300 }
       ]
     },
     {
@@ -51,9 +51,9 @@ const hungryMenuData = {
       price: 100,
       image: "https://avatars.mds.yandex.net/i?id=d8e89c7bc8e882d352b321239989894aa830788b-5220968-images-thumbs&n=13",
       subitems: [
-        { name: 'Classic Maggie', price: 100 },
-        { name: 'Korean Maggie', price: 100 },
-        { name: 'Chilli Garlic Maggie', price: 100 },
+        { name: 'Classic Maggie', price: 60 },
+        { name: 'Korean Maggie', price: 120 },
+        { name: 'Chilli Garlic Maggie', price: 120 },
         { name: 'Add-ons: Vegetable', price: 20 },
         { name: 'Add-ons: Cheese', price: 20 },
         { name: 'Add-ons: Garlic Sauce', price: 20 }
@@ -64,9 +64,9 @@ const hungryMenuData = {
       price: 250,
       image: "https://avatars.mds.yandex.net/i?id=3f66fa9e083590152108750546f057d1aa192ef0-10514561-images-thumbs&n=13",
       subitems: [
-        { name: 'Classic Garlic Bread', price: 250 },
-        { name: 'Cheese Garlic Bread', price: 250 },
-        { name: 'Stuffed Garlic Bread', price: 250 }
+        { name: 'Classic Garlic Bread', price: 80 },
+        { name: 'Cheese Garlic Bread', price: 120 },
+        { name: 'Stuffed Garlic Bread', price: 300 }
       ]
     },
     {
@@ -74,6 +74,8 @@ const hungryMenuData = {
       price: 150,
       image: "https://avatars.mds.yandex.net/i?id=c26378f8d6aad7090c05859a9b7a5b736b6be986-10696380-images-thumbs&n=13",
       subitems: [
+       { name: 'Salad (Low Calorie)',
+        price: 150},
         { name: 'Paneer (Add-on)', price: 40 },
         { name: 'Oats', price: 150 },
         { name: 'Soya Chunks (High Protein)', price: 150 },
@@ -94,15 +96,15 @@ const hungryMenuData = {
       price: 300,
       image: "https://avatars.mds.yandex.net/i?id=d3193d2accc8cc96a163b350f6ec65e51440133b-9043236-images-thumbs&n=13",
       subitems: [
-        { name: 'Bombay Sandwich', price: 300 },
-        { name: 'Masala Sandwich', price: 300 },
-        { name: 'Vegetable Sandwich', price: 300 },
-        { name: 'Cheese Chutney Sandwich', price: 300 },
-        { name: 'Paneer Tikka Sandwich', price: 300 },
-        { name: 'Club Sandwich', price: 300 },
-        { name: 'Sandy Witchy Bites', price: 300 },
-        { name: 'Chocolate Sandwich', price: 300 },
-        { name: 'Pizza Sandwich', price: 300 },
+        { name: 'Bombay Sandwich', price: 60 },
+        { name: 'Masala Sandwich', price: 80 },
+        { name: 'Vegetable Sandwich', price: 100 },
+        { name: 'Cheese Chutney Sandwich', price: 120 },
+        { name: 'Paneer Tikka Sandwich', price: 150},
+        { name: 'Club Sandwich', price: 200 },
+        { name: 'Sandy Witchy Bites', price: 280 },
+        { name: 'Chocolate Sandwich', price: 150 },
+        { name: 'Pizza Sandwich', price: 180 },
         { name: 'Add-ons: Cheese', price: 20 },
         { name: 'Add-ons: Mayo', price: 20 },
         { name: 'Add-ons: Chipotle Sauce', price: 20 }
@@ -113,12 +115,12 @@ const hungryMenuData = {
       price: 150,
       image: "https://avatars.mds.yandex.net/i?id=7d0fc1ffb452aca1ee752bdb6ed2ee3604c7ecda-12422218-images-thumbs&n=13",
       subitems: [
-        { name: 'Aloo Tikki Burger', price: 150 },
-        { name: 'Classic Veg Burger', price: 150 },
-        { name: 'Mexican Burger', price: 150 },
-        { name: 'Add-ons: Cheese', price: 30 },
+        { name: 'Aloo Tikki Burger', price: 80 },
+        { name: 'Classic Veg Burger', price: 100 },
+        { name: 'Mexican Burger', price: 120 },
+        { name: 'Add-ons: Cheese', price: 20 },
         { name: 'Add-ons: Grilled Paneer', price: 30 },
-        { name: 'Add-ons: Tikki', price: 30 }
+        { name: 'Add-ons: Tikki', price: 40 }
       ]
     },
     {
@@ -126,10 +128,10 @@ const hungryMenuData = {
       price: 150,
       image: "https://avatars.mds.yandex.net/i?id=b042efb0a153b88c35d41869b70786325f5937c7-12532894-images-thumbs&n=13",
       subitems: [
-        { name: 'Salted Fries', price: 150 },
-        { name: 'Masala Fries', price: 150 },
-        { name: 'Peri-Peri Fries', price: 150 },
-        { name: 'Frenchy Cheesy Fries', price: 150 },
+        { name: 'Salted Fries', price: 80 },
+        { name: 'Masala Fries', price: 100 },
+        { name: 'Peri-Peri Fries', price: 120 },
+        { name: 'Frenchy Cheesy Fries', price: 250 },
         { name: 'Add-ons: Cheese', price: 30 },
         { name: 'Add-ons: Chipotle Cheese', price: 30 }
       ]
@@ -138,46 +140,6 @@ const hungryMenuData = {
 };
 
 
-/*const Hungry = ({ addToOrder }) => {
-
-  const [expandedCategory, setExpandedCategory] = useState(null);
-  const [orderItems, setOrderItems] = useState([]);
-  const removeFromOrder = (itemName) => {
-    const updatedOrderItems = orderItems.filter(item => item.name !== itemName);
-    setOrderItems(updatedOrderItems);
-  };
-  const handleAddToOrder = (item) => {
-    addToOrder(item);
-    setOrderItems(prevItems => [...prevItems, item]);
-  };
-
-  const toggleCategory = (category) => {
-    if (expandedCategory === category) {
-      setExpandedCategory(null);
-    } else {
-      setExpandedCategory(category);
-    }
-
-
-
-
-    const handleAddToOrder = (item) => {
-      addToOrder(item);
-      // Check if the item is already in the orderItems array
-      const existingItem = orderItems.find(orderItem => orderItem.name === item.name);
-      if (existingItem) {
-        // If the item already exists, increase its quantity by 1
-        const updatedOrderItems = orderItems.map(orderItem =>
-          orderItem.name === item.name ? { ...orderItem, quantity: orderItem.quantity + 1 } : orderItem
-        );
-        setOrderItems(updatedOrderItems);
-      } else {
-        // If the item is not in the orderItems array, add it with a quantity of 1
-        setOrderItems(prevItems => [...prevItems, { ...item, quantity: 1 }]);
-      }
-    };
-
-  };*/
 
   const   Hungry = () => {
     const [expandedCategory, setExpandedCategory] = useState(null);

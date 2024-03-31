@@ -15,15 +15,15 @@ const addictedMenuData = {
         { name: 'Mango', price: 100 },
         { name: 'Strawberry', price: 100 },
         { name: 'Butterscotch', price: 100 },
-        { name: 'Chocolate', price: 100 },
-        { name: 'Oreo', price: 100 },
-        { name: 'Kitkat', price: 100 },
-        { name: 'Brownie', price: 100 },
-        { name: 'Blueberry', price: 100 },
-        { name: 'Blackcurrant', price: 100 },
-        { name: 'Giant Brownie', price: 100 },
+        { name: 'Chocolate', price: 120 },
+        { name: 'Oreo', price: 120 },
+        { name: 'Kitkat', price: 130 },
+        { name: 'Brownie', price: 150 },
+        { name: 'Blueberry', price: 150 },
+        { name: 'Blackcurrant', price: 150 },
+        { name: 'Giant Brownie', price: 200 },
         { name: 'Joy', price: 100 },
-        { name: 'Add-on: Ice Cream', price: 20 }
+        { name: 'Add-on: Ice Cream', price: 30 }
       ]
     },
     {
@@ -31,17 +31,18 @@ const addictedMenuData = {
       price: 150,
       image:"https://avatars.mds.yandex.net/i?id=f9f3082dc2a469f0101548383dffdf72add0bc73-3872711-images-thumbs&n=13",
       subitems: [
-        { name: 'Mojitos', price: 150 },
-        { name: 'Kaccha Aam', price: 150 },
-        { name: 'Strawberry', price: 150 },
-        { name: 'Watermelon', price: 150 },
-        { name: 'Litchi', price: 150 },
-        { name: 'Blackcurrant', price: 150 },
-        { name: 'Blueberry', price: 150 },
-        { name: 'Virgin Green Mint', price: 150 },
+        { name: 'Mojitos', price: 120 },
+        { name: 'Kaccha Aam', price: 120 },
+        { name: 'Strawberry', price: 120 },
+        { name: 'Watermelon', price: 120 },
+        { name: 'Litchi', price: 120 },
+        { name: 'Blackcurrant', price: 120 },
+        { name: 'Blueberry', price: 120 },
+        { name: 'Virgin ', price: 120 },
+        { name: 'Green Mint', price: 120 },
         { name: 'Blue Curacao', price: 150 },
         { name: 'Flirty Grenadine', price: 150 },
-        { name: 'Peach', price: 150 }
+        { name: 'Sexy Peach', price: 150 }
       ]
     },
     {
@@ -49,10 +50,10 @@ const addictedMenuData = {
       price: 200,
       image:"https://avatars.mds.yandex.net/i?id=4a0d4c098d3890b576909724d087a7e3-4034027-images-thumbs&n=13",
       subitems: [
-        { name: 'Lemon', price: 200 },
-        { name: 'Blueberry', price: 200 },
-        { name: 'Blackcurrant', price: 200 },
-        { name: 'Watermelon', price: 200 }  
+        { name: 'Lemon', price: 100 },
+        { name: 'Blueberry', price: 100 },
+        { name: 'Blackcurrant', price: 100 },
+        { name: 'Watermelon', price: 100 }  
       ]
     },
     {
@@ -65,12 +66,12 @@ const addictedMenuData = {
       price: 30,
       image:"https://avatars.mds.yandex.net/i?id=e3ef334da97dfbc1e10652360fab6d3cecc99e33-9145716-images-thumbs&n=13",
       subitems: [
-        { name: 'Chocolate', price: 30 },
+        { name: 'Chocolate', price: 25 },
         { name: 'Masala', price: 30 },
         { name: 'Ginger', price: 30 },
         { name: 'Elaichi', price: 30 },
         { name: 'Black', price: 30 },
-        { name: 'Green', price: 30 }
+        { name: 'Green', price: 40 }
       ]
     },
     {
@@ -78,8 +79,8 @@ const addictedMenuData = {
       price: 100,
       image:"https://yandex-images.clstorage.net/vF5c3Q183/6d0dfe5LjAVb/BTjhjCunTPenNRBhbkOQTJPDRsR74eKwQ_dQybIZ9zwhcFR-Z9kgg8LXi8jefoC3vVA6pJIK2l3DF6J6imwBW3FsJbg6EomDxsGEoR7T0bgiF8bACiTCATJHYHjn-TL5ERYnrCCuFuFUwByv2apQ90hAK3XnD2reFeO0a90cJUn0a6PePBQ_9ZJFwPG8M2FKgCNW4esXUnClFQA6sgkmLqY1hv5TruejxzAMLZorEeTaU-jCF12K74SVlkrNHlaaNttRLW2E3bXxZkCBfDEBCpFiF2EKRxKgNKewKtNIpK4WFpV-oNwkIjXSfq24GfC0-xBbkgcfWG7HVdcYr402eIYp082d5OynAZZwAp1BY6hTAgehyeTyoqQVEvqi2VZOtYbnXNOehEImki9-Shrjh1pwmrKnTrhNNbYUeP-slsi1OBAP_zQd1CCGciP-E4P5I0JEItrkAlK0Z4LJMTi2LtblpH5D3iVyJLLeb8gaQreYwuhTd325P6T1V9m8X0a5RmtjP4-3fmYx5NNwLjEAqMBgZ8OIVQOCpmUSuXMbBq5VhffNsm1EAoXz7445q1AWOkCqYKUNGN5ntiXLLO6U6XZZk91P1I_G0cRS8T8RUFoRY9bD2UZBg3dlQlrQ25ZdNzaFzWKcJJC1Yx5NyQuAxKtBaNI1bIiuZRfFum0-5nqXGhAPr3XdlqGEkVMtg4Co8nC18BnWcgNGF_G7YXqFjaSHBV9xHqQjNGMN7TvI8maZMQmRl13o3sZ2t_otzpQp10uzv05mntRx5uDAnrOheLBgBfG7FVMCxoQjKQMLtZ0kB0S9E60ncMci_07L6lLE6jIao_UuuH7kVCVaXR8ESzXbcdyd5-ymM0TBE38DkuqT8Vdw2kczsOR0AkkC6If9VuanfzAe5EPWkr3MKEiBtekwG3OGr1iv9MdUWY4PNXi02IJtDnQMhYDFAfE-wSMY0zHUA9o3UqGnZBB70",
       subitems: [
-        { name: 'Instant', price: 100 },
-        { name: 'Espresso', price: 100 },
+        { name: 'Instant', price: 40 },
+        { name: 'Espresso', price: 50 },
         { name: 'Latte', price: 100 },
         { name: 'Americano', price: 100 },
         { name: 'Cappuccino', price: 100 },
@@ -92,11 +93,13 @@ const addictedMenuData = {
       image:"https://avatars.mds.yandex.net/i?id=44f2aa0219bf94b2f128fb8cb485ac09b09b2e4c-9233261-images-thumbs&n=13",
       subitems: [
         { name: 'Classic', price: 100 },
-        { name: 'Hazelnut', price: 100 },
-        { name: 'Butterscotch', price: 100 },
-        { name: 'Vanilla', price: 100 },
-        { name: 'Add-on: Chocolate Ice Cream', price: 20 },
-        { name: 'Add-on: Brownie', price: 20 }
+        { name: 'Hazelnut', price: 120 },
+        { name: 'Butterscotch', price: 120 },
+        { name: 'Vanilla', price: 120 },
+        { name: 'Roasted coffe beans', price: 150 },
+        { name: 'Add-on: Chocolate ', price: 20 },
+        { name: 'Add-on: Ice Cream', price: 30 },
+        { name: 'Add-on: Brownie', price: 50 }
       ]
     },
     {
@@ -204,7 +207,7 @@ const addictedMenuData = {
                 {item.name}
               </div>
               {expandedCategory === item.name && (
-                <ul className="list-none pl-4">
+                <ul className="  bg-slate-100  list-none pl-4">
                   {item.subitems && item.subitems.map((subitem) => (
                     <li key={subitem.name} className="flex justify-between items-center bg-slate text-lg border-b border-gray-300 py-2">
                       <span>{subitem.name}</span>

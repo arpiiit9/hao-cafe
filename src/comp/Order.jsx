@@ -141,7 +141,7 @@ export default Order;*/
 
 import React from 'react';
 
-const Order = ({ orderItems, removeFromOrder }) => {
+const Order = ({ orderItems, removeFromOrder,clearorder }) => {
 
   const itemCountMap = orderItems.reduce((map, item) =>
    {
@@ -174,7 +174,7 @@ const Order = ({ orderItems, removeFromOrder }) => {
             <div>Quantity: {item.quantity}</div>
             <button
               className="mt-2 bg-red-500 text-white px-2 py-1 rounded-md hover:bg-red-600 transition-colors"
-              onClick={() => removeFromOrder(item)}
+              onClick={() => removeFromOrder(item.name)}
             >
               Remove
             </button>
@@ -187,15 +187,19 @@ const Order = ({ orderItems, removeFromOrder }) => {
       </div>
       <button
         onClick={sendOrderViaWhatsApp}
-        className="mt-6 bg-green-500 text-white px-4 py-2 rounded-md hover:bg-green-600 transition-colors"
+        className="mt-6 ml-8 bg-green-500 text-white px-4 py-2 rounded-md hover:bg-green-600 transition-colors"
       >
         Order via WhatsApp
       </button>
+      
     </div>
   );
 };
 
 export default Order;
+
+
+
 
 
 

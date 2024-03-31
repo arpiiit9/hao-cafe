@@ -135,7 +135,11 @@ const addictedMenuData = {
       
     
       const removeFromOrder = (itemName) => {
-        const updatedOrderItems = orderItems.filter(item => item.name !== itemName);
+        const updatedOrderItems = orderItems.map(item =>
+          item.name === itemName
+            ? { ...item, quantity: Math.max(0, item.quantity - 1) } // Reduce quantity, ensuring it's not negative
+            : item
+        ).filter(item => item.quantity > 0); // Remove items with quantity zero
         setOrderItems(updatedOrderItems);
       };
     
@@ -176,11 +180,15 @@ const addictedMenuData = {
       
       }, [orderItems]);
       
-
+      const clearOrder = () => {
+        // Clear all order items
+        setOrderItems([]);
+      };
+  
     return (  
       <div>
-        {orderItems.length > 0 ? <Order orderItems={orderItems} removeFromOrder={removeFromOrder} />
- : null}
+        {orderItems.length > 0 ? <Order orderItems={orderItems} removeFromOrder={removeFromOrder}  clearorder={clearOrder}/>
+ : <> </>}
   
         <ul className="h-auto w-69 mt-0 bg-gradient-to-br from-gray-200 to-white list-none p-2 rounded-lg border border-gray-300">
           {addictedMenuData.items.map((item) => (

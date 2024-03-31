@@ -4,12 +4,10 @@ import Header from './comp/Header';
 import Hungry from './comp/Hungry';
 import Addiction from './comp/Addicted';
 import Obsessed from './comp/Obesesd';
-import StickyButton from './comp/StickyButton';
-import PopupModal from './comp/Popup';
-import Notpc from './comp/Notpc';
+
 
 import LoadingScreen from './comp/Loading';
-import Order from './comp/Order';
+
 
 const App = () => {
   const [orderItems, setOrderItems] = useState([]);

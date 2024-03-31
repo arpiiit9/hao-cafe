@@ -13,8 +13,8 @@ const Order = ({ orderItems, removeFromOrder,clearorder }) => {
   const totalPrice = orderItems.reduce((acc, item) => acc + item.price * item.quantity, 0);
 
   const sendOrderViaWhatsApp = () => {
-    const message = `Hey i love to have this 😊 Order Summary:%0A${orderItems.map(item => `${item.name} - Quantity: ${item.quantity}`).join('%0A')}%0ATotal Price: ₹${totalPrice}`;
-    window.open(`https://wa.me/+918770942365?text=${message}`, '_blank');
+    const message = `Hey i want to eat :- Order Summary:%0A${orderItems.map(item => `${item.name} - Quantity: ${item.quantity}`).join('%0A')}%0ATotal Price: ₹${totalPrice}`;
+    window.open(`https://wa.me/+918269054216?text=${message}`, '_blank');
   };
 
   return (

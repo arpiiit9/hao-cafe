@@ -4,14 +4,11 @@ import Header from './comp/Header';
 import Hungry from './comp/Hungry';
 import Addiction from './comp/Addicted';
 import Obsessed from './comp/Obesesd';
-
-
 import LoadingScreen from './comp/Loading';
 
 
 const App = () => {
   const [orderItems, setOrderItems] = useState([]);
-  const [showPopup, setShowPopup] = useState(false);
   
 
   
@@ -50,8 +47,6 @@ const App = () => {
       </div>
     </Router>
   );
-}; {
-  
-}
+}; 
 
 export default App

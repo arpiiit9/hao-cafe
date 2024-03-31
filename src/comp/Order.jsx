@@ -32,7 +32,7 @@ const Order = ({ orderItems, removeFromOrder,clearorder }) => {
             >
              |
             </button>
-              {itemCountMap[item.name] > 1 && (
+              {itemCountMap[item.name] > 0 && (
                 
                 <div className=" ml-2 bg-blue-100 rounded-md text-black px-2 py-1 ">
                   {itemCountMap[item.name]}

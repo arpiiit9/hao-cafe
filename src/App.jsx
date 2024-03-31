@@ -6,6 +6,7 @@ import Addiction from './comp/Addicted';
 import Obsessed from './comp/Obesesd';
 import StickyButton from './comp/StickyButton';
 import PopupModal from './comp/Popup';
+import Notpc from './comp/Notpc';
 
 import LoadingScreen from './comp/Loading';
 import Order from './comp/Order';
@@ -13,6 +14,7 @@ import Order from './comp/Order';
 const App = () => {
   const [orderItems, setOrderItems] = useState([]);
   const [showPopup, setShowPopup] = useState(false);
+  
 
   
    const addToOrder = (item) => {
@@ -29,15 +31,19 @@ const App = () => {
   // Update orderItems with the items from Hungry, Addicted, and Obsessed components
 
   return (
+    
     <Router>
+       
       <div>
         <LoadingScreen />
         <Header className="sticky" />
         <Routes>
+
           <Route path="/" element={<Hungry addToOrder={addToOrder} />} />
           <Route path="/hungry" element={<Hungry addToOrder={addToOrder} />} />
           <Route path="/addicted" element={<Addiction />} />
           <Route path="/obsessed" element={<Obsessed />} />
+         
          
          
          

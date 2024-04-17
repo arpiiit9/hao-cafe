@@ -194,7 +194,7 @@ const Obsessed = () => {
         {obsessedMenuData.items.map((item) => (
           <li
             key={item.name}
-            className="flex flex-col text-2xl border-b font-semibold border-gray-300"
+            className="flex flex-col text-2xl border-b font-normal border-gray-300"
           >
             <div
               className="flex items-center h-14 cursor-pointer transition-colors duration-300 ease-in-out"

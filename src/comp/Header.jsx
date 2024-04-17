@@ -1,13 +1,18 @@
 import { Link } from 'react-router-dom';
 import Hero from './Hero';
 
-const Header = ({orderItems}) => {
+const Header = ({ orderItems }) => {
   const images = [
-    'https://i.ibb.co/LCsHcDx/Whats-App-Image-2024-03-20-at-6-47-06-PM-1.jpg',
-    'https://i.ibb.co/GnBR2j0/Whats-App-Image-2024-03-20-at-6-47-06-PM-2.jpg',
-    'https://i.ibb.co/9YKg12f/Whats-App-Image-2024-03-20-at-6-47-06-PM.jpg',
-    'https://i.ibb.co/f92DJ71/Whats-App-Image-2024-03-20-at-6-47-07-PM-3.jpg',
-    'https://i.ibb.co/tPhJ0gb/Whats-App-Image-2024-03-20-at-6-47-07-PM.jpg',
+    'https://i.postimg.cc/j2S6wzqF/1.jpg',
+'https://i.postimg.cc/RV81h6kg/2.jpg',
+'https://i.postimg.cc/B6qHkxFn/3.jpg',
+'https://i.postimg.cc/25N4Fp8v/4.jpg',
+'https://i.postimg.cc/MZ9mkrd2/6.jpg',
+'https://i.postimg.cc/QdTQTNsh/7.jpg',
+'https://i.postimg.cc/pdQKs0pS/8.jpg',
+'https://i.postimg.cc/gkrqGqTw/9.jpg'
+
+
     // Add more image URLs as needed
   ];
 

@@ -12,7 +12,7 @@ const Hero = ({ images }) => {
     }, [images]);
 
     return (
-        <div className="h-[350px] hero bg-cover bg-center relative">
+        <div className="h-[150px] hero bg-cover bg-center relative">
             {images.map((image, index) => (
                 <img
                     key={index}

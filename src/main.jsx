@@ -1,10 +1,14 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App.jsx';
+import './index.css';
+import Pc from './comp/Pc.jsx';
+const isDesktop = window.innerWidth > window.innerHeight;
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-)
+  isDesktop ? <Pc/>: (
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
+  ),
+);

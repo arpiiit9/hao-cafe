@@ -30,7 +30,7 @@ const Header = ({ orderItems }) => {
           </Link>
           <Link to="/obsessed" className="block transform transition-transform duration-300 hover:scale-150 flex flex-col items-center justify-center">
             <img src="https://w.forfun.com/fetch/61/61181258a8864f7f03216b94b27f3970.jpeg" alt="Pasta" className="rounded-full h-12 w-13 shadow-black hover:border-white hover:shadow-white" />
-            <span className='text-white font-semibold'>OBSSESD</span>
+            <span className='text-white font-semibold'>OBSESSED</span>
           </Link>
         </nav>
       </header>

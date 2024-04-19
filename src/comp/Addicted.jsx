@@ -21,8 +21,7 @@ const addictedMenuData = {
         { name: 'Brownie', price: 150 },
         { name: 'Blueberry', price: 150 },
         { name: 'Blackcurrant', price: 150 },
-        { name: 'Giant Brownie', price: 200 },
-        { name: 'Joy', price: 100 },
+        { name: 'Giant Brownie joy', price: 200 },
         { name: 'Add-on: Ice Cream', price: 30 }
       ]
     },
